@@ -34,36 +34,36 @@ by
  with provided files and build,
  
  ### Instructions for building
- same as original mfsbsd butt adding ```WITHOUT_EFI=yes``` option
+ same as original mfsbsd butt adding ```NO_EFIBOOT=yes``` option (adding ```WITHOUT_EFI=yes``` can also help)
  
 - disc image
 ```
-make BASE=/cdrom/usr/freebsd-dist WITHOUT_EFI=yes
-make BASE=/cdrom/10.2-RELEASE WITHOUT_EFI=yes
-make CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 WITHOUT_EFI=yes
+make BASE=/cdrom/usr/freebsd-dist NO_EFIBOOT=yes
+make BASE=/cdrom/10.2-RELEASE NO_EFIBOOT=yes
+make CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 NO_EFIBOOT=yes
 ```
 - bootable ISO file:
 ```
-make iso BASE=/cdrom/usr/freebsd-dist WITHOUT_EFI=yes
-make iso BASE=/cdrom/10.2-RELEASE WITHOUT_EFI=yes
-make iso CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 WITHOUT_EFI=yes
+make iso BASE=/cdrom/usr/freebsd-dist NO_EFIBOOT=yes
+make iso BASE=/cdrom/10.2-RELEASE NO_EFIBOOT=yes
+make iso CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 NO_EFIBOOT=yes
 ```
 - .tar.gz file:
 ```
-make tar BASE=/cdrom/usr/freebsd-dist WITHOUT_EFI=yes
-make tar BASE=/cdrom/10.2-RELEASE WITHOUT_EFI=yes
-make tar CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 WITHOUT_EFI=yes
+make tar BASE=/cdrom/usr/freebsd-dist NO_EFIBOOT=yes
+make tar BASE=/cdrom/10.2-RELEASE NO_EFIBOOT=yes
+make tar CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 NO_EFIBOOT=yes
 ```
 - roothack edition:
 ```
-make iso CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 ROOTHACK=1 WITHOUT_EFI=yes
+make iso CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 ROOTHACK=1 NO_EFIBOOT=yes
 ```
 - special edition (with FreeBSD distribution):
 ```
-make iso BASE=/cdrom/11.0-RELEASE RELEASE=11.0-RELEASE ARCH=amd64 WITHOUT_EFI=yes
+make iso BASE=/cdrom/11.0-RELEASE RELEASE=11.0-RELEASE ARCH=amd64 NO_EFIBOOT=yes
 ```
 - GCE-compatible .tar.gz file:
 ``` 
 make gce BASE=/cdrom/11.0-RELEASE WITHOUT_EFI=yes
-make gce CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 WITHOUT_EFI=yes
+make gce CUSTOM=1 BUILDWORLD=1 BUILDKERNEL=1 NO_EFIBOOT=yes
 ```
