@@ -1,5 +1,5 @@
 # Utility PXE/iPXE repo
-config file, documentation and tools for PXE/iPXE
+config files, documentations and tools for PXE/iPXE
 
 ver 0.00.01-12-18-25\
 by
