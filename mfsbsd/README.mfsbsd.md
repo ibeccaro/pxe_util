@@ -7,7 +7,7 @@ to make it work correctly on FreeBSD 14.3 i386 to generate i386 mfsbsd
 
 (preliminary, fs produced are still untested)
 
-ver 0.00.03-12-19-25\
+ver 0.00.02-12-19-25\
 by
 
 
@@ -25,7 +25,7 @@ by
  ## Notes
  Legacy i386 machine do not need EFI bootloader and it is not present in the distribuition (14.3),
  so it has been removed from makefile and still the makefile must be invoked with NO_EFIBOOT option set\
- More, the tools/packages,sample file installs cpdup-freebsd package from older FreeBSD releases, now 
+ More, the tools/packages.sample file installs cpdup-freebsd package from older FreeBSD releases, now 
  replaced by cpdup package.
  Replace
  
