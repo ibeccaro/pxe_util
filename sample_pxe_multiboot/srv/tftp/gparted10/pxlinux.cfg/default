@@ -1,0 +1,7 @@
+DEFAULT GParted10
+path /gparted10/
+
+label GParted10
+MENU LABEL GParted Live
+kernel gparted10/vmlinuz
+append initrd=gparted10/initrd.img boot=live config components union=overlay username=user noswap noeject vga=788 fetch=http://192.168.5.100/gparted10.filesystem.squashfs

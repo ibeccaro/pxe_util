@@ -1,0 +1,7 @@
+DEFAULT GParted13
+path /gparted13/
+
+label GParted13
+MENU LABEL GParted Live
+kernel gparted13/vmlinuz
+append initrd=gparted13/initrd.img boot=live config components union=overlay username=user noswap noeject vga=788 fetch=http://192.168.5.100/gparted13.filesystem.squashfs

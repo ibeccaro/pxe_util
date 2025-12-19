@@ -1,0 +1,11 @@
+MENU TITLE PXE Multiboot
+DEFAULT menu.c32
+
+LABEL Gparted10
+MENU LABEL Gparted 1.0.0 Live!
+CONFIG gparted10/pxelinux.cfg/default
+
+LABEL Gparted13
+MENU LABEL Gparted 1.3.0 Live!
+CONFIG gparted13/pxelinux.cfg/default
+
