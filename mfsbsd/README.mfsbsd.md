@@ -7,7 +7,7 @@ to make it work correctly on FreeBSD 14.3 i386 to generate i386 mfsbsd
 
 (preliminary, fs produced are still untested)
 
-ver 0.00.02-12-19-25\
+ver 0.00.03-12-19-25\
 by
 
 
@@ -34,7 +34,7 @@ by
  with provided files and build,
  
  ### Instructions for building
- same as original mfsbsd butt adding ```NO_EFIBOOT=yes``` option (adding ```WITHOUT_EFI=yes``` can also help)
+ same as original mfsbsd but adding ```NO_EFIBOOT=yes``` option (adding ```WITHOUT_EFI=yes``` can also help)
  
 - disc image
 ```

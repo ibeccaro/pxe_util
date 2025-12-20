@@ -14,6 +14,7 @@ this folder contains a sample multiboot pxe server configuration on a linux box 
 it is assumed that the root TFTP folder is located at
 
 - /srv/tftp
+	- /srv/tftp/gpartedXX
 
 and the web folder is located at
 
@@ -30,7 +31,7 @@ and the web folder is located at
 ### Configuration
 
 
-ver 0.00.01-12-19-25 (preliminary)\
+ver 0.00.02-12-19-25 (preliminary)\
 by
 ```   ____      ____..--'   ____      ____..--'    .-''-.    .---.     
  .'  __ `.  |        | .'  __ `.  |        |  .'_ _   \   | ,_|     
