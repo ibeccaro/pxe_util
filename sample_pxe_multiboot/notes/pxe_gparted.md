@@ -6,8 +6,12 @@
 - copy files to root subfolder
 			```sudo cp live/{vmlinuz,initrd.img} /srv/tftp/gpartedXX```
 - copy squashfs to www
-			```sudo cp live/filesystem/squashfs /var/www/html```
-			```mv /var/www/html/filesystem.squashfs /var/www/html/gpXX.filesystem.squashfs```
+```
+			sudo cp live/filesystem/squashfs /var/www/html
+```
+```
+			mv /var/www/html/filesystem.squashfs /var/www/html/gpXX.filesystem.squashfs
+```
 - add /srv/tftp/gpartedXX/pxelinux.cfg/default
 ```
 			label GPartedXX
