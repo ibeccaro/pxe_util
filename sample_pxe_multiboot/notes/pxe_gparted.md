@@ -16,7 +16,7 @@
 ```
 - add /srv/tftp/gpartedXX/pxelinux.cfg/default
 ```
-			label GPartedXX
+	label GPartedXX
             MENU LABEL GParted XX Live
             kernel gpartedXX/vmlinuz
             append initrd=gpartedXX/initrd.img boot=live config components union=overlay username=user noswap noeject vga=788 fetch=http://192.168.5.100/gpXX.filesystem.squashfs
