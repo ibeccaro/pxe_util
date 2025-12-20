@@ -4,7 +4,9 @@
 ### Preparation
 - download Gparted live zip file and unzip
 - copy files to root subfolder
-			```sudo cp live/{vmlinuz,initrd.img} /srv/tftp/gpartedXX```
+```
+			sudo cp live/{vmlinuz,initrd.img} /srv/tftp/gpartedXX
+```
 - copy squashfs to www
 ```
 			sudo cp live/filesystem/squashfs /var/www/html
