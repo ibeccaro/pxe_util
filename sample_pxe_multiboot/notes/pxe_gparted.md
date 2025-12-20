@@ -9,12 +9,12 @@
 			```sudo cp live/filesystem/squashfs /var/www/html```
 			```mv /var/www/html/filesystem.squashfs /var/www/html/gpXX.filesystem.squashfs```
 - add /srv/tftp/gpartedXX/pxelinux.cfg/default
-			```
+```
 			label GPartedXX
             MENU LABEL GParted XX Live
             kernel gpartedXX/vmlinuz
             append initrd=gpartedXX/initrd.img boot=live config components union=overlay username=user noswap noeject vga=788 fetch=http://192.168.5.100/gpXX.filesystem.squashfs
-            ```
+```
 - if the GParted live version you are using is <= 0.22.0-1, then the config file is like:
 ```
     label GPartedXX
