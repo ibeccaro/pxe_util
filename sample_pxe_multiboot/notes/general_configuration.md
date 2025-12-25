@@ -72,13 +72,13 @@ sudo apt install apache2
 and the files referenced may be placed in /var/www/html
 
 
-## PXELINUX sYSLINUX
+## PXELINUX/SYSLINUX
 
 ```
 sudo apt install syslinux pxelinux
 ```
 
-installs 
+installs:\
 	- pxelinux.0 (NBP)
 	- BIOS (legacy machines) modules .c32
 	- EFI modules
@@ -94,7 +94,7 @@ in the following locations
 - on RHEL
 ```
 sudo dnf install syslinux syslinux-tftpboot
-``
+```
 
 - on ARCH
 ```
