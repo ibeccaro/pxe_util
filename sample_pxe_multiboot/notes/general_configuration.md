@@ -79,9 +79,9 @@ sudo apt install syslinux pxelinux
 ```
 
 installs:\
-	- pxelinux.0 (NBP)
-	- BIOS (legacy machines) modules .c32
-	- EFI modules
+- pxelinux.0 (NBP)
+- BIOS (legacy machines) modules .c32
+- EFI modules
 	
 in the following locations
 
