@@ -139,15 +139,16 @@ sudo chmod -R 755 /srv/tftp
 
 ## TROUBLESHOOTING
 most errors on PXE client boot, in particular talking of not found files depends on
-	- file path not corrext (NBP from the os expects often files in a specific structure)
-	- owner (if the server can't access file the it's not found)
-	- permissions (if files has not correct permissions, same as above, additionally the with --secure TFTP option often files with 777 perms are not reliable for transfer)
+- file path not corrext (NBP from the os expects often files in a specific structure)
+- owner (if the server can't access file the it's not found)
+- permissions (if files has not correct permissions, same as above, additionally the with --secure TFTP option often files with 777 perms are not reliable for transfer)
 	
 ## ACTIVATING DAEMONS
 
 ```
 sudo systemctl enable isc-dhcp-server
 sudo systemctl enable tftpd
+```
 
 ## EFI
 
